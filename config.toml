@@ -1,0 +1,19 @@
+compile_sass = true
+description = ""
+base_url = "https://zola-after-dark.netlify.com"
+
+taxonomies = [
+    {name = "categories", rss = true},
+    {name = "tags", rss = true},
+]
+
+highlight_theme = "solarized-dark"
+
+[extra]
+author = "Alireza"
+after_dark_title = "Blog - Alireza Bashiri"
+after_dark_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+]
